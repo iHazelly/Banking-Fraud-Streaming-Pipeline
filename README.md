@@ -62,7 +62,7 @@ Banking-Fraud-Streaming-Pipeline/
 ├── docs/
 │   └── architecture.png             # Architecture diagram
 ├── sceenshot/
-│   
+   
 
 ```
 
