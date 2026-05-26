@@ -61,6 +61,8 @@ Banking-Fraud-Streaming-Pipeline/
 │   └── kinesis-stream.yaml          # CloudFormation for Kinesis stream
 ├── docs/
 │   └── architecture.png             # Architecture diagram
+├── sceenshot/
+│   
 
 ```
 
