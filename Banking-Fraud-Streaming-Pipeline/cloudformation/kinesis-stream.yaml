@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: Kinesis stream for banking transaction streaming
+
+Resources:
+  TransactionStream:
+    Type: AWS::Kinesis::Stream
+    Properties:
+      Name: banking-transaction-stream
+      ShardCount: 1   # 1 shard ก็พอสำหรับ prototype
+
+Outputs:
+  StreamName:
+    Value: !Ref TransactionStream
+  StreamARN:
+    Value: !GetAtt TransactionStream.Arn
