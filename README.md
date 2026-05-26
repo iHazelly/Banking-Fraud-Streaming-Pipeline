@@ -1,4 +1,4 @@
-# 🚨 Banking Fraud Streaming Pipeline
+#  Banking Fraud Streaming Pipeline
 
 ![AWS](https://img.shields.io/badge/AWS-Kinesis%20%7C%20Glue%20%7C%20Lambda%20%7C%20Athena%20%7C%20S3%20%7C%20CloudWatch-orange)
 ![PySpark](https://img.shields.io/badge/PySpark-4.0-red)
