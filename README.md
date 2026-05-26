@@ -197,7 +197,8 @@ Fraud rate: ~36% (due to high‑value transactions in the test sample).
 
 ## 📊 Dashboard Preview
 
-![Dashboard Preview](docs/dashboard.png)
+<img width="1567" height="809" alt="dashboard" src="https://github.com/user-attachments/assets/d39b8173-b596-4693-9514-f84c764389f2" />
+
 
 *Auto‑refreshing dashboard (30s interval) showing KPI cards, hourly fraud attempts, and top suspicious accounts.*
 
