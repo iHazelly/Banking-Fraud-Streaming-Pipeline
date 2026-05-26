@@ -27,7 +27,8 @@ Banks lose millions to fraud every year. Traditional batch pipelines (e.g., hour
 
 ## 🏗️ Architecture Overview
 
-![Architecture Diagram](docs/architecture.png)
+<img width="1402" height="740" alt="architecture" src="https://github.com/user-attachments/assets/ccd84843-5a49-4f3e-bed9-02de569d846d" />
+
 
 *End‑to‑end serverless streaming pipeline for real‑time fraud detection.*
 
