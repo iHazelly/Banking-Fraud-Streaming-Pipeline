@@ -171,7 +171,7 @@ python producer/producer.py
 |---|-------------------|-----------------|
 | 1 | Architecture Diagram | `docs/architecture.png` – draw.io or Eraser.io diagram |
 | 2 | Live Dashboard | S3 website endpoint – full page showing KPI cards, hourly fraud chart, top accounts table |
-| 3 | Glue Streaming Job Log (success) | Glue Console → Jobs → `banking-streaming-job` → Runs → view logs (CloudWatch) |
+| 3 | Glue Streaming Job Log  | Glue Console → Jobs → `banking-streaming-job` → Runs → view logs (CloudWatch) |
 | 4 | Athena Query Result | Athena Console → run `SELECT is_fraud_final, COUNT(*) FROM banking_db.streaming_fraud GROUP BY is_fraud_final;` |
 | 5 | S3 Parquet Files (partitioned) | Processed bucket → `streaming-output/is_fraud_final=0/partition_date=...` showing Parquet files |
 | 6 | CloudWatch Events Rule | CloudWatch Console → Events → Rules → `banking-fraud-refresh-5min` |
